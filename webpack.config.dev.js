@@ -5,7 +5,7 @@ module.exports = {
   devtool: 'eval',
   entry: [
     'webpack-dev-server/client?http://lcoalhost:1212',
-    './src/base'
+    './src/main'
   ],
   output: {
     path: path.join(__dirname, 'dist'),
