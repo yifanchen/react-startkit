@@ -1,9 +1,11 @@
 # react-startkit
 
-A friendly React startkit allows you to start working on React with all dependencies installed. Dependencies include: React, Babel, Webpack.
+A friendly React startkit allows you to start working on React with all dependencies installed. Dependencies include: React, Babel, Webpack, Hot-Loder, ES6.
 
-    localhost:1212
+url: (why port 1030? It's a legendary # from my childhood)
 
-start
+    localhost:1030
+
+start:
 
     node dev-server.js
