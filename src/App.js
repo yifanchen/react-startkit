@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+// one of the reasons to use webpack is the react-hot-loader plugin allows to update content without changing state.
 export default class App extends React.Component {
   constructor() {
     super();
