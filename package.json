@@ -1,0 +1,25 @@
+{
+  "name": "react-startkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yifanchen/react-startkit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yifanchen/react-startkit/issues"
+  },
+  "homepage": "https://github.com/yifanchen/react-startkit#readme",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
