@@ -5,7 +5,8 @@ module.exports = {
   devtool: 'eval',
   entry: [
     'webpack-dev-server/client?http://lcoalhost:1212',
-    './src/main'
+    'webpack/hot/only-dev-server',
+    './src/index'
   ],
   output: {
     path: path.join(__dirname, 'dist'),
@@ -13,6 +14,7 @@ module.exports = {
     publicPath: '/static/'
   },
   plugins: [
+    //new webpack.HotModuleReplacementPlugin()
   ],
   module: {
     loaders: [{
